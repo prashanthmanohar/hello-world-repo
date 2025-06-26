@@ -1,0 +1,9 @@
+name: Hello World
+on: push
+jobs:
+  hello-job:
+    runs-on: ubunutu-latest
+    steps:
+    - name: Echo Text
+      run: echo "Hello, world!"
+    
